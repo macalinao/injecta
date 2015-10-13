@@ -1,7 +1,7 @@
 $(function() {
   var libraries = [
     {
-      name: 'jQuery',
+      name: 'jQuery 3',
       url: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js'
     },
     {
@@ -11,7 +11,23 @@ $(function() {
     {
       name: 'Lodash',
       url: 'https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js'
-    }
+    },
+    {
+      name: 'Moment',
+      url: 'https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js'
+    },
+    {
+      name: 'Zepto',
+      url: 'https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js'
+    },
+    {
+      name: 'jQuery 1',
+      url: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js'
+    },
+    {
+      name: 'jQuery 2',
+      url: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js'
+    },
   ];
 
   $('#libraryList').html(libraries.map(function(lib) {
