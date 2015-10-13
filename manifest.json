@@ -1,0 +1,26 @@
+{
+  "name": "Injecta",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Injects scripts into your current page, allowing easy usage of utility JS libraries in foreign webpages.",
+  "homepage_url": "http://danharper.me",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "assets/icon19.png",
+      "38": "assets/icon38.png"
+    },
+    "default_title": "Injecta",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}
