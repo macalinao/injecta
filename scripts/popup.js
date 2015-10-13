@@ -13,7 +13,16 @@ $(function() {
       url: 'https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js'
     }
   ];
-  $('#libraryList').html(libraries.map(function(lib) {
-    return '<li>' + lib.name + '</li>';
-  }).join(''));
+
+  libraries.map(function(lib) {
+    var el = $('<li>'
+      + '<input type="checkbox" id="' + lib.name + '" value="' + lib.url + '">'
+      + '<label for="' + lib.name + '">' + lib.name + '</label>'
+      + '</li>');
+
+    return el;
+  }).map(function(el) {
+    $('#libraryList').append(el);
+  });
+
 });

@@ -1,0 +1,19 @@
+body {
+  width: 200px;
+}
+
+#libraryList {
+  padding: 10px;
+}
+
+#libraryList li {
+  display: inline-block;
+  margin: 5px;
+  font-size: 14px;
+  user-select: none;
+  cursor: pointer;
+}
+
+input[type=checkbox] {
+  margin-right: 10px;
+}
