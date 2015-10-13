@@ -1,6 +1,6 @@
 # injecta
 
-Chrome extension that injects scripts into your current page, allowing easy usage of utility JS libraries in foreign webpages.
+Inject JavaScript libraries into your current page.
 
 ## Usage
 
