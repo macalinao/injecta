@@ -1,4 +1,4 @@
-console.log('Injected scripts');
+console.log('Injecta: Injecting scripts...');
 
 function addScript(src) {
   var s = document.createElement('script');
@@ -6,4 +6,10 @@ function addScript(src) {
   document.body.appendChild(s);
 }
 
-addScript('https://cdnjs.cloudflare.com/ajax/libs/ramda/0.18.0/ramda.js');
+document.addEventListener('injecta_injected', function(e) {
+  e.detail.libraries.map(function(lib) {
+    console.log('Injected ' + lib.name);
+    addScript(lib.url);
+  });
+  console.log('Scripts injected!');
+});
