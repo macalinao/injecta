@@ -1,6 +1,8 @@
 # injecta
 
-![logo](/assets/icon128.png)
+![logo][logo]
+
+[Chrome Web Store][chrome-web-store]
 
 Chrome extension to inject JavaScript libraries into any webpage with the click of a button.
 
@@ -15,3 +17,6 @@ Click the button on the top right, select your scripts, then hit "Inject".
 ## License
 
 MIT
+
+[logo]: /assets/logo.png
+[chrome-web-store]: https://chrome.google.com/webstore/detail/injecta/gbndgddgajcmkogjonkgbcempddcbmca
