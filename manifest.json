@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "manifest_version": 2,
   "description": "Inject JavaScript libraries into your current page.",
-  "homepage_url": "http://danharper.me",
+  "homepage_url": "https://ian.pw",
   "background": {
     "scripts": [
       "background.js"
