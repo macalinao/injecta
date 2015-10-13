@@ -12,6 +12,8 @@ With Injecta, you can now do this without having to copy/paste scripts into the 
 
 ## Usage
 
+![screenshot][screenshot]
+
 Click the button on the top right, select your scripts, then hit "Inject".
 
 ## License
@@ -19,4 +21,5 @@ Click the button on the top right, select your scripts, then hit "Inject".
 MIT
 
 [logo]: /assets/logo.png
+[screenshot]: /assets/screenshot.png
 [chrome-web-store]: https://chrome.google.com/webstore/detail/injecta/gbndgddgajcmkogjonkgbcempddcbmca
