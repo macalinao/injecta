@@ -2,11 +2,11 @@ $(function() {
   var libraries = [
     {
       name: 'jQuery 3',
-      url: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js'
+      url: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js'
     },
     {
       name: 'Ramda',
-      url: 'https://cdnjs.cloudflare.com/ajax/libs/ramda/0.18.0/ramda.min.js'
+      url: 'https://cdnjs.cloudflare.com/ajax/libs/ramda/0.19.0/ramda.min.js'
     },
     {
       name: 'Lodash',
