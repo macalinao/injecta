@@ -21,6 +21,10 @@ $(function() {
       url: 'https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js'
     },
     {
+      name: 'd3',
+      url: 'https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.14/d3.min.js'
+    },
+    {
       name: 'jQuery 1',
       url: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js'
     },
