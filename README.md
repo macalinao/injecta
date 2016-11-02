@@ -14,7 +14,7 @@ With Injecta, you can now do this without having to copy/paste scripts into the 
 
 ![screenshot][screenshot]
 
-Click the button on the top right, select your scripts, then hit "Inject".
+Click the button on the top right, select your scripts, enter desired CDN urls, then hit "Inject".
 
 ## License
 

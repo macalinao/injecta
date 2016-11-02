@@ -41,6 +41,17 @@ $(function() {
       + '</li>';
   }).join(''));
 
+  $('#custom-script').submit((e) => {
+    var url = $('#script-url').val();
+    $('#libraryList').append(
+      `<li><input type="checkbox" id=${url} value=${url} checked>` +
+      `<label for=${url}>${url}</label></li>`
+    );
+
+    $('#script-url').val('')
+    return false;
+  })
+
   $('#inject').click(function() {
     var selectedLibs = [];
     $('#libraryList li').each(function(el) {
